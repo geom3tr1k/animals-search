@@ -1,0 +1,79 @@
+.card {
+    margin: 50px auto;
+    max-width: 1600px;
+    width: 100%;
+    background-color: white;
+    padding: 50px 0;
+    border-radius: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-infoPet {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.card-infoPet p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.card-line {
+    width: 2px;
+    height: 400px;
+    background-color: var(--color-bg);
+}
+
+h1 {
+    font-size: var(--font-size-head);
+    margin-bottom: 30px;
+}
+
+.card-photos {
+    max-width: 1600px;
+    margin: auto;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.card-photos div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card-photos div img {
+    width: 30%;
+    min-width: 300px;
+    margin: 10px;
+}
+
+
+.card-infoPeople {
+    width: 29%;
+    margin-left: 50px;
+}
+
+.card-infoPeople div {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.botton{
+    background: #F3A505;
+    border-radius: 100px;
+    height: 50px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.card-infoPeople-title {
+    font-weight: 600;
+}

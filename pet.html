@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка</title>
+    <link rel="stylesheet" href="css/pet.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header-conteiner">
+        <a href="index.html"><img src="img/logo.png" alt="logo" class="header-image"></a>
+        <input type="text" class="search-input" placeholder="Поиск..." />
+        <div class="burger-btn">
+            <span></span><span></span><span></span>
+        </div>
+        <ul class="list-conteiner">
+            <li><a href="register.html">Регистрация</a></li>
+            <li><a href="">Личный кабинет</a></li>
+            <li><a href="">Админ</a></li>
+            <li><a href="">Отзывы</a></li>
+            <li><a href="">Добавить</a></li>
+        </ul>
+    </header>
+    <section class="card">
+        <div class = "card-infoPet">
+            <h1>Информация о животном</h1>
+            <p>Дата: 25.11.2024</p>
+            <p>Район: Советский</p>
+            <p>Вид: Собака</p>
+            <p>Клеймо: Отстутсвует</p>
+            <p>Дополнительная информация: спокойный характер</p>
+        </div>
+        <div class="card-line"></div>
+        <div class="card-infoPeople">
+            <h1>Информация о нашедшем</h1>
+            <div>
+                <p class="card-infoPeople-title">ФИО:</p>
+                <p>Иван Иванов</p>
+            </div>
+            <div>
+                <p class="card-infoPeople-title">Телефон:</p>
+                <p>8 (900) 901 91 91</p>
+            </div>
+            <div>
+                <p class="card-infoPeople-title">Почта:</p>
+                <p>ivanov@mail.ru</p>
+            </div>
+            <button class="botton">Связаться</button>
+        </div>
+    </section>
+    <section class="card-photos">
+        <h1>Фото</h1>
+        <div>
+            <img src="img/dog1.png" alt="Фото 1">
+            <img src="img/dog2.png" alt="Фото 2">
+            <img src="img/dog3.png" alt="Фото 3">
+        </div>
+    </section>
+    <footer class="footer-container">
+    <div class="footer-leftInformation">
+        <p>Телефон: 8 (800) 123-45-67</p>
+        <p>Почта: mail@newlife.ru</p>
+    </div>
+    <div class="footer-line"></div>
+    <ul class="footer-menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="register.html">Регистрация</a></li>
+        <li><a href="login.html">Авторизация</a></li>
+    </ul>
+    <ul class="footer-menu">
+        <li><a href="#">Личный кабинет</a></li>
+        <li><a href="#">Найдено животное</a></li>
+        <li class="footer-search">
+        <label for="search">Поиск:</label>
+        <input type="search" id="search" placeholder="Поиск..." />
+        </li>
+    </ul>
+    <img src="img/logo.png" alt="logo">
+    </footer>
+</body>
+</html>    

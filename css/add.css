@@ -1,0 +1,95 @@
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+}
+
+.add-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;       
+    padding: 50px;      
+    max-width: 500px;        
+    min-height: 50dvh;       
+    align-items: center;
+    background: #fff;
+    border-radius: 100px 0 100px 0;
+    box-shadow: 5px 5px 10px #FF9800;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form p {
+    margin: 10px;
+
+}
+
+.add-part {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.botton{
+    background: #F3A505;
+    border-radius: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.add-box div input{
+    background-color: var(--color-input);
+    border-radius: 10px;
+    border: 1px solid;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.orange{
+    color: #F3A505;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.checkbox  {
+  accent-color: var(--color-input);
+}
+
+.add-part-conteiner {
+    display: flex;
+}
+
+.add-part-conteiner .add-part  div input{
+    width: 50%;
+}
+
+.add-box div textarea{
+    background-color: var(--color-input);
+    border-radius: 10px;
+    border: 1px solid;
+    height: 80px;
+    width: 100%;
+    font-size: 20px;
+    max-width: 486px;
+    max-height: 100px;
+
+}
+

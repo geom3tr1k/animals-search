@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавление животного</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/add.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header-conteiner">
+        <a href="index.html"><img src="img/logo.png" alt="logo" class="header-image"></a>
+        <input type="text" class="search-input" placeholder="Поиск..." />
+        <div class="burger-btn">
+            <span></span><span></span><span></span>
+        </div>
+        <ul class="list-conteiner">
+            <li><a href="register.html">Регистрация</a></li>
+            <li><a href="">Личный кабинет</a></li>
+            <li><a href="">Админ</a></li>
+            <li><a href="">Отзывы</a></li>
+            <li><a href="">Добавить</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="add-box">
+            <h1>Добавление животных</h1>
+            <form action="">
+                <div class="add-part-conteiner">
+                    <div class="add-part"> 
+                        <label for="text">Вид животного</label>
+                        <input type="text">
+                    </div>
+                    <div class="add-part"> 
+                        <label for="text">Клеймо</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="add-part">
+                    <label for="file">Фото</label>
+                    <input type="text">
+                </div>
+                <div class="add-part-conteiner">
+                    <div class="add-part"> 
+                        <label for="email">Район</label>
+                        <input type="text">
+                    </div>
+                    <div class="add-part"> 
+                        <label for="email">Дата</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="add-part">
+                    <label for="password">Дополнительная информация</label>
+                    <textarea name="" id=""></textarea>
+                </div>
+                <div class="add-part">
+                    <label for="phone">Телефон для связи</label>
+                    <input type="phone">
+                </div>
+                <div class="add-part">
+                    <label for="password">Почта для связи</label>
+                    <input type="email">
+                </div>
+                <div class="hidden-box add-part">
+                    <label for="password">Пароль</label>
+                    <input type="password">
+                </div>
+                <div class="hidden-box add-part">
+                    <label for="password">Повторить пароль</label>
+                    <input type="password">
+                </div>
+                <label class="orange">
+                    <input type="checkbox" class="checkbox">
+                    Согласие на обработку персональных данных
+                </label>
+                <label class="orange">
+                    <input type="checkbox" id="checkbox">
+                    Зарегистрироваться в системе
+                </label>
+                <input type="submit" value="Добавить" class="botton">
+            </form>
+        </div>
+
+    </main>
+    <footer class="footer-container">
+        <div class="footer-leftInformation">
+            <p>Телефон: 8 (800) 123-45-67</p>
+            <p>Почта: mail@newlife.ru</p>
+        </div>
+        <div class="footer-line"></div>
+        <ul class="footer-menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="register.html">Регистрация</a></li>
+            <li><a href="login.html">Авторизация</a></li>
+        </ul>
+        <ul class="footer-menu">
+            <li><a href="#">Личный кабинет</a></li>
+            <li><a href="#">Найдено животное</a></li>
+            <li class="footer-search">
+            <label for="search">Поиск:</label>
+            <input type="search" id="search" placeholder="Поиск..." />
+            </li>
+        </ul>
+        <img src="img/logo.png" alt="logo">
+    </footer>
+</body>
+<script>
+    const checkbox = document.getElementById('checkbox');
+    const hiddenBoxes = document.querySelectorAll('.hidden-box');
+
+    checkbox.addEventListener('change', () => {
+        hiddenBoxes.forEach(box => {
+        box.style.display = checkbox.checked ? 'block' : 'none';
+      });
+    });
+</script>
+</html>
