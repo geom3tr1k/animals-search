@@ -62,7 +62,6 @@ h1 {
   table {
     border-collapse: collapse;
     width: 100%;
-    border-radius: 40px;
   }
   table th, td {
     border: 1px solid #000;
